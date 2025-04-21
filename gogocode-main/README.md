@@ -22,8 +22,8 @@ Let's show you how to select and modify code with our API
 ### In
 
 ```javascript
-const a = 1;
-const b = 2;
+const a = 11234123;
+const b = 55435345453453;
 ```
 
 ### Transform With GoGoCode
