@@ -22,7 +22,7 @@ Let's show you how to select and modify code with our API
 ### In
 
 ```javascript
-const a = 1234565;
+const a = 1;
 const b = 2;
 ```
 
@@ -37,6 +37,7 @@ const aAssignment = script.find('const a = $_$');
 const aValue = aAssignment.match?.[0]?.[0]?.value;
 // replace AST as same as replace a string
 // but ignore code format (space、indent or linebreak)
+
 script.replace('const b = $_$', `const b = ${aValue}`);
 // generate ast to string
 const outCode = script.generate();
@@ -46,7 +47,7 @@ const outCode = script.generate();
 
 ```javascript
 const a = 1;
-const b = 1;
+const b = 2;
 ```
 
 ## Related Project
