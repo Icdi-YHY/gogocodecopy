@@ -22,7 +22,7 @@ Let's show you how to select and modify code with our API
 ### In
 
 ```javascript
-const a = 123456432145;
+const a = 1234565;
 const b = 2;
 ```
 
